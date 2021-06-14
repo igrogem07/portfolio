@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient( blue, blueviolet, lightgreen);
+}
+
+.link-header{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 150px;
+}
+
+.link-header:hover {
+    color: white;
+    font-size: 30px;
+    transition: ease-in 1s;
+}
+
+nav{
+    padding: 10px;
+    margin: 15px;
+    background-color:white;
+    color: black;
+    border: 3px solid gold;
+    background-image: linear-gradient(to right, yellow, lightgreen);
+}
+
+.link-nav {
+    color: black;
+    padding: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link-nav:hover {
+    color: red;
+    transition: ease-in 1,5s;
+    font-size: 24;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1:hover {
+    color: white;
+    font-size: 40px;
+    transition:ease-out 1s;
+}
+
+p {
+    text-align: center;
+}
+
+p:hover {
+    color: rgb(133, 128, 128);
+    font-size: 20px;
+    transition:ease-out 1s;
+}
+
+.tt {
+    border-radius: 30px;
+
+}
+
